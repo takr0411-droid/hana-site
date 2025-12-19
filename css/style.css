@@ -1,0 +1,104 @@
+{\rtf1\ansi\ansicpg932\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!doctype html> <html lang="ja"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width,initial-scale=1"> <title>\uc0\u33457 \u65288 \u23621 \u37202 \u23627 \u12539 \u38867 \u22269 \u23478 \u24237 \u26009 \u29702 \u65289 \u65372 \u35199 \u23470 \u12539 \u30002 \u23376 \u22290 </title> <meta name="description" content="\u35199 \u23470 \u12539 \u26481 \u30002 \u23376 \u22290 \u12398 \u23621 \u37202 \u23627 \u12302 \u33457 \u12303 \u12290 \u23478 \u12424 \u12426 \u12418 \u28201 \u12363 \u12356 \u31354 \u38291 \u12391 \u27005 \u12375 \u12416 \u38867 \u22269 \u23478 \u24237 \u26009 \u29702 \u12290 \u33258 \u23478 \u35069 \u12461 \u12531 \u12497 \u12289 \u12461 \u12512 \u12481 \u39171 \u23376 \u12289 \u37444 \u26495 \u12392 \u12426 \u28988 \u32905 \u12364 \u33258 \u24930 \u12290 \u21942 \u26989 \u26178 \u38291 17:00\u12316 23:00\u65288 \u28779 \u26332 \u23450 \u20241 \u65289 \u12290 \u35201 \u20104 \u32004 \u65306 090-8129-0329"> <meta property="og:title" content="\u33457 \u65288 \u23621 \u37202 \u23627 \u12539 \u38867 \u22269 \u23478 \u24237 \u26009 \u29702 \u65289 \u65372 \u35199 \u23470 \u12539 \u30002 \u23376 \u22290 "> <meta property="og:description" content="\u23478 \u12424 \u12426 \u12418 \u28201 \u12363 \u12356 \u31354 \u38291 \u12391 \u27005 \u12375 \u12416 \u38867 \u22269 \u23478 \u24237 \u26009 \u29702 \u12290 \u33258 \u23478 \u35069 \u12461 \u12531 \u12497 \u12289 \u12461 \u12512 \u12481 \u39171 \u23376 \u12289 \u37444 \u26495 \u12392 \u12426 \u28988 \u32905 \u12364 \u33258 \u24930 \u12290 \u21942 \u26989 \u26178 \u38291 17:00\u12316 23:00\u65288 \u28779 \u26332 \u23450 \u20241 \u65289 \u12290 \u35201 \u20104 \u32004 \u65306 090-8129-0329"> <meta property="og:image" content="https://example.com/images/hero.jpg"> <meta name="twitter:card" content="summary_large_image"> <link rel="stylesheet" href="css/style.css"> </head> <body> <header class="site-header"> <div class="container header-inner"> <div class="logo">\u33457 </div> <nav class="nav" id="nav"> <a href="#menu">\u12513 \u12491 \u12517 \u12540 </a> <a href="#gallery">\u12462 \u12515 \u12521 \u12522 \u12540 </a> <a href="#about">\u24215 \u33303 \u26696 \u20869 </a> <a href="#access">\u12450 \u12463 \u12475 \u12473 </a> <a href="tel:09081290329" class="btn btn-sm">\u20104 \u32004 \u12539 \u38651 \u35441 </a> </nav> <button class="tel-btn" onclick="location.href='tel:09081290329'">\u20170 \u12377 \u12368 \u38651 \u35441 </button> <button class="nav-toggle" id="navToggle" aria-label="\u12513 \u12491 \u12517 \u12540 ">\u9776 </button> </div> </header> <main> <!-- Hero --> <section class="hero"> <div class="container hero-inner"> <h1 class="kv">\u23478 \u12424 \u12426 \u12418 \u28201 \u12363 \u12356 \u23621 \u37202 \u23627 \u12364 \u12289 \u12371 \u12371 \u12395 \u12399 \u12354 \u12427 \u12290 </h1> <p class="kv-sub">\u38867 \u22269 \u23478 \u24237 \u12398 \u21619 \u12392 \u31505 \u38996 \u12391 \u12362 \u36814 \u12360 \u12375 \u12414 \u12377 \u12290 \u12461 \u12531 \u12497 \u12539 \u12461 \u12512 \u12481 \u39171 \u23376 \u12539 \u37444 \u26495 \u12392 \u12426 \u28988 \u32905 \u12364 \u33258 \u24930 \u12290 </p> <div class="hero-ctas"> <a href="tel:09081290329" class="btn btn-primary">\u38651 \u35441 \u12391 \u20104 \u32004 \u65288 090-8129-0329\u65289 </a> <a href="#menu" class="btn btn-outline">\u12513 \u12491 \u12517 \u12540 \u12434 \u35211 \u12427 </a> </div> <ul class="quick-info"> <li>\u21942 \u26989 \u26178 \u38291 \u65306 \u28779 \u26332 \u23450 \u20241 \u65295 17:00\u12316 23:00</li> <li>\u24109 \u25968 \u65306 20\u24109 \u65288 \u20491 \u23460 \u12394 \u12375 \u65289 </li> </ul> </div> </section>
+\f1\fs26 \
+<!-- Recommend -->\
+<section id="menu" class="section section-pad">\
+  <div class="container">\
+    <h2 class="section-title">\uc0\u33457 \u12398 \u12362 \u12377 \u12377 \u12417 </h2>\
+    <div class="cards">\
+      <article class="card">\
+        <img src="images/kinpa.jpg" alt="\uc0\u12461 \u12531 \u12497 ">\
+        <h3>\uc0\u12461 \u12531 \u12497 </h3>\
+        <p>\uc0\u33258 \u23478 \u35069 \u12398 \u21619 \u20184 \u12369 \u12372 \u12399 \u12435 \u12392 \u26032 \u39854 \u12394 \u20855 \u26448 \u12391 \u24059 \u12367 \u12289 \u24403 \u24215 \u33258 \u24930 \u12398 \u23450 \u30058 \u12290 800\u20870 </p>\
+      </article>\
+      <article class="card">\
+        <img src="images/gyoza.jpg" alt="\uc0\u12461 \u12512 \u12481 \u39171 \u23376 ">\
+        <h3>\uc0\u12461 \u12512 \u12481 \u39171 \u23376 </h3>\
+        <p>\uc0\u33258 \u23478 \u35069 \u12461 \u12512 \u12481 \u12434 \u12383 \u12387 \u12407 \u12426 \u20351 \u29992 \u12290 \u22806 \u12399 \u12459 \u12522 \u12483 \u12392 \u12289 \u20013 \u12399 \u12472 \u12517 \u12540 \u12471 \u12540 \u12290 680\u20870 </p>\
+      </article>\
+      <article class="card">\
+        <img src="images/toriyakiniku.jpg" alt="\uc0\u37444 \u26495 \u12392 \u12426 \u28988 \u32905 ">\
+        <h3>\uc0\u37444 \u26495 \u12392 \u12426 \u28988 \u32905 </h3>\
+        <p>\uc0\u29305 \u35069 \u12480 \u12524 \u12391 \u20181 \u19978 \u12370 \u12383 \u40335 \u12434 \u29105 \u12293 \u12398 \u37444 \u26495 \u12391 \u12372 \u25552 \u20379 \u12290 980\u20870 </p>\
+      </article>\
+    </div>\
+    <p class="note">\uc0\u8251 \u20385 \u26684 \u12399 \u12469 \u12531 \u12503 \u12523 \u12391 \u12377 \u12290 \u23455 \u38555 \u12398 \u20385 \u26684 \u12395 \u24046 \u12375 \u26367 \u12360 \u12390 \u12367 \u12384 \u12373 \u12356 \u12290 </p>\
+  </div>\
+</section>\
+\
+<!-- Gallery -->\
+<section id="gallery" class="section section-dark">\
+  <div class="container">\
+    <h2 class="section-title light">\uc0\u24215 \u20869 \u12539 \u12462 \u12515 \u12521 \u12522 \u12540 </h2>\
+    <div class="gallery-grid">\
+      <img src="images/interior1.jpg" alt="\uc0\u24215 \u20869 \u12398 \u27096 \u23376 ">\
+      <img src="images/kinpa.jpg" alt="\uc0\u12461 \u12531 \u12497 ">\
+      <img src="images/gyoza.jpg" alt="\uc0\u12461 \u12512 \u12481 \u39171 \u23376 ">\
+      <img src="images/toriyakiniku.jpg" alt="\uc0\u37444 \u26495 \u12392 \u12426 \u28988 \u32905 ">\
+    </div>\
+  </div>\
+</section>\
+\
+<!-- About / Owner -->\
+<section id="about" class="section section-pad">\
+  <div class="container">\
+    <h2 class="section-title">\uc0\u24215 \u33303 \u26696 \u20869 </h2>\
+    <div class="about-grid">\
+      <div>\
+        <p>\uc0\u12356 \u12425 \u12387 \u12375 \u12419 \u12356 \u12414 \u12379 \u12290 \u12302 \u33457 \u12303 \u12399 \u12289 \u23478 \u12398 \u12396 \u12367 \u12418 \u12426 \u12434 \u36229 \u12360 \u12427 \'93\u12418 \u12358 \u12402 \u12392 \u12388 \u12398 \u25105 \u12364 \u23478 \'94\u12434 \u30446 \u25351 \u12377 \u38867 \u22269 \u23478 \u24237 \u26009 \u29702 \u12398 \u23621 \u37202 \u23627 \u12391 \u12377 \u12290 \u25163 \u20316 \u12426 \u12398 \u12461 \u12531 \u12497 \u12289 \u12500 \u12522 \u36763 \u12391 \u26088 \u21619 \u12383 \u12387 \u12407 \u12426 \u12398 \u12461 \u12512 \u12481 \u39171 \u23376 \u12289 \u37444 \u26495 \u12391 \u39321 \u12400 \u12375 \u12367 \u28988 \u12365 \u19978 \u12370 \u12427 \u12392 \u12426 \u28988 \u32905 \'97\u24515 \u12418 \u20307 \u12418 \u28201 \u12414 \u12427 \u19968 \u30399 \u12434 \u12372 \u29992 \u24847 \u12375 \u12390 \u12362 \u24453 \u12385 \u12375 \u12390 \u12356 \u12414 \u12377 \u12290 </p>\
+        <h4>\uc0\u24215 \u33303 \u24773 \u22577 </h4>\
+        <ul class="info-list">\
+          <li>\uc0\u24215 \u21517 \u65306 \u33457 </li>\
+          <li>\uc0\u20303 \u25152 \u65306 \u12306 663-8183 \u20853 \u24235 \u30476 \u35199 \u23470 \u24066 \u37324 \u20013 \u30010 \u65298 \u19969 \u30446 \u65298 \u8722 \u65298  \u26481 \u30002 \u23376 \u22290 \u12495 \u12452 \u12484 </li>\
+          <li>\uc0\u38651 \u35441 \u65306 090-8129-0329</li>\
+          <li>\uc0\u21942 \u26989 \u26178 \u38291 \u65306 \u28779 \u26332 \u23450 \u20241 \u65295 17:00\u12316 23:00</li>\
+          <li>\uc0\u24109 \u25968 \u65306 20\u24109 \u65288 \u20491 \u23460 \u12394 \u12375 \u65289 </li>\
+        </ul>\
+      </div>\
+      <div class="owner">\
+        <h4>\uc0\u24215 \u20027 \u12424 \u12426 </h4>\
+        <p>\uc0\u24403 \u24215 \u12302 \u33457 \u12303 \u12399 \u12289 \u23478 \u26063 \u12420 \u21451 \u20154 \u12364 \u38598 \u12358 \u12354 \u12383 \u12383 \u12363 \u12356 \u26178 \u38291 \u12434 \u22823 \u20999 \u12395 \u12375 \u12390 \u12356 \u12414 \u12377 \u12290 \u23478 \u24237 \u12398 \u21619 \u12434 \u12505 \u12540 \u12473 \u12395 \u12289 \u12402 \u12392 \u25163 \u38291 \u12363 \u12369 \u12383 \u26009 \u29702 \u12391 \u30342 \u12373 \u12414 \u12398 \'93\u12418 \u12358 \u12402 \u12392 \u12388 \u12398 \u25105 \u12364 \u23478 \'94\u12395 \u12394 \u12428 \u12428 \u12400 \u23305 \u12375 \u12356 \u12391 \u12377 \u12290 </p>\
+      </div>\
+    </div>\
+  </div>\
+</section>\
+\
+<!-- Phone Reservation Section -->\
+<section id="reserve" class="section section-pad section-accent">\
+  <div class="container">\
+    <h2 class="section-title white">\uc0\u12372 \u20104 \u32004 \u12539 \u12362 \u21839 \u21512 \u12379 </h2>\
+    <p class="white">\uc0\u12372 \u20104 \u32004 \u12399 \u12362 \u38651 \u35441 \u12391 \u25215 \u12387 \u12390 \u12362 \u12426 \u12414 \u12377 \u12290 \u30906 \u23455 \u12394 \u12372 \u26469 \u24215 \u12398 \u12383 \u12417 \u12289 \u20107 \u21069 \u12398 \u12372 \u36899 \u32097 \u12434 \u12362 \u12377 \u12377 \u12417 \u12375 \u12414 \u12377 \u12290 </p>\
+    <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:12px">\
+      <a href="tel:09081290329" class="btn btn-primary" style="padding:14px 20px;font-size:1rem">\uc0\u20170 \u12377 \u12368 \u38651 \u35441 \u12377 \u12427 \u65306 090-8129-0329</a>\
+      <a href="#access" class="btn btn-outline" style="padding:12px 18px">\uc0\u12450 \u12463 \u12475 \u12473 \u12434 \u35211 \u12427 </a>\
+    </div>\
+    <p class="white" style="margin-top:12px;font-size:0.95rem">\uc0\u8251 \u24403 \u26085 \u12461 \u12515 \u12531 \u12475 \u12523 \u12539 \u22793 \u26356 \u12399 \u12362 \u38651 \u35441 \u12395 \u12390 \u12372 \u36899 \u32097 \u12367 \u12384 \u12373 \u12356 \u12290 \u12493 \u12483 \u12488 \u20104 \u32004 \u12399 \u34892 \u12387 \u12390 \u12362 \u12426 \u12414 \u12379 \u12435 \u12290 </p>\
+  </div>\
+</section>\
+\
+<!-- Access -->\
+<section id="access" class="section section-pad">\
+  <div class="container">\
+    <h2 class="section-title">\uc0\u12450 \u12463 \u12475 \u12473 </h2>\
+    <div class="access-grid">\
+      <div>\
+        <p>\uc0\u12306 663-8183 \u20853 \u24235 \u30476 \u35199 \u23470 \u24066 \u37324 \u20013 \u30010 \u65298 \u19969 \u30446 \u65298 \u8722 \u65298  \u26481 \u30002 \u23376 \u22290 \u12495 \u12452 \u12484 </p>\
+        <p>\uc0\u26368 \u23492 \u12426 \u39365 \u65306 \u38442 \u31070 \u30002 \u23376 \u22290 \u39365 \u65288 \u24466 \u27497 \u12414 \u12383 \u12399 \u12496 \u12473 \u65289 \u8251 \u35443 \u12375 \u12356 \u34892 \u12365 \u26041 \u12399 \u19979 \u35352 \u22320 \u22259 \u12434 \u12372 \u21442 \u29031 \u12367 \u12384 \u12373 \u12356 \u12290 \u39376 \u36554 \u22580 \u65306 \u36817 \u38563 \u12467 \u12452 \u12531 \u12497 \u12540 \u12461 \u12531 \u12464 \u12434 \u12372 \u21033 \u29992 \u12367 \u12384 \u12373 \u12356 \u12290 </p>\
+        <p>\uc0\u38651 \u35441 \u65306 090-8129-0329</p>\
+      </div>\
+      <div class="map">\
+        <iframe src="https://www.google.com/maps?q=\uc0\u12306 663-8183%20\u20853 \u24235 \u30476 \u35199 \u23470 \u24066 \u37324 \u20013 \u30010 \u65298 \u19969 \u30446 \u65298 \u8722 \u65298 &output=embed" aria-hidden="false" style="border:0" allowfullscreen="" loading="lazy"></iframe>\
+      </div>\
+    </div>\
+  </div>\
+</section>\
+
+\f0\fs24 </main> <footer class="site-footer"> <div class="container footer-inner"> <div> <p>\uc0\u33457  \'97 \u38867 \u22269 \u23478 \u24237 \u26009 \u29702 \u12398 \u23621 \u37202 \u23627 </p> <p>\u20303 \u25152 \u65306 \u12306 663-8183 \u20853 \u24235 \u30476 \u35199 \u23470 \u24066 \u37324 \u20013 \u30010 \u65298 \u19969 \u30446 \u65298 \u8722 \u65298  \u26481 \u30002 \u23376 \u22290 \u12495 \u12452 \u12484 </p> <p>\u38651 \u35441 \u65306 090-8129-0329 | \u21942 \u26989 \u26178 \u38291 \u65306 \u28779 \u26332 \u23450 \u20241 \u65295 17:00\u12316 23:00</p> </div> <div> <p>\'a9\u65038  \u33457 </p> </div> </div> </footer> <script> // \u31777 \u26131 \u12490 \u12499 \u38283 \u38281  (function()\{ const navToggle = document.getElementById('navToggle'); const nav = document.getElementById('nav'); navToggle && navToggle.addEventListener('click', function()\{ nav.classList.toggle('open'); \}); \})(); </script> </body> </html>}
