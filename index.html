@@ -1,26 +1,51 @@
-<!doctype html> <html lang="ja"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width,initial-scale=1"> <title>花（居酒屋・韓国家庭料理）｜西宮・甲子園</title> <meta name="description" content="西宮・東甲子園の居酒屋『花』。家よりも温かい空間で楽しむ韓国家庭料理。自家製キンパ、キムチ餃子、鉄板とり焼肉が自慢。営業時間17:00〜23:00（火曜定休）。要予約：090-8129-0329"> <meta property="og:title" content="花（居酒屋・韓国家庭料理）｜西宮・甲子園"> <meta property="og:description" content="家よりも温かい空間で楽しむ韓国家庭料理。自家製キンパ、キムチ餃子、鉄板とり焼肉が自慢。営業時間17:00〜23:00（火曜定休）。要予約：090-8129-0329"> <meta property="og:image" content="https://example.com/images/hero.jpg"> <meta name="twitter:card" content="summary_large_image"> <link rel="stylesheet" href="css/style.css"> </head> <body> <header class="site-header"> <div class="container header-inner"> <div class="logo">花</div> <nav class="nav" id="nav"> <a href="#menu">メニュー</a> <a href="#gallery">ギャラリー</a> <a href="#about">店舗案内</a> <a href="#access">アクセス</a> <a href="tel:09081290329" class="btn btn-sm">予約・電話</a> </nav> <button class="tel-btn" onclick="location.href='tel:09081290329'">今すぐ電話</button> <button class="nav-toggle" id="navToggle" aria-label="メニュー">☰</button> </div> </header> <main> <!-- Hero --> <section class="hero"> <div class="container hero-inner"> <h1 class="kv">家よりも温かい居酒屋が、ここにはある。</h1> <p class="kv-sub">韓国家庭の味と笑顔でお迎えします。キンパ・キムチ餃子・鉄板とり焼肉が自慢。</p> <div class="hero-ctas"> <a href="tel:09081290329" class="btn btn-primary">電話で予約（090-8129-0329）</a> <a href="#menu" class="btn btn-outline">メニューを見る</a> </div> <ul class="quick-info"> <li>営業時間：火曜定休／17:00〜23:00</li> <li>席数：20席（個室なし）</li> </ul> </div> </section>
+index.html
+
+<!doctype html> <html lang="ja"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width,initial-scale=1"> <title>花（居酒屋・韓国家庭料理）｜西宮・甲子園</title> <meta name="description" content="家よりも温かい居酒屋が、ここにはある。西宮・東甲子園の韓国家庭料理『花』。キンパ・キムチ餃子・鉄板とり焼肉が自慢。"> <meta property="og:title" content="花（居酒屋・韓国家庭料理）｜西宮・甲子園"> <meta property="og:description" content="家よりも温かい居酒屋が、ここにはある。"> <meta property="og:image" content="https://takr0411-droid.github.io/hana-site/images/hero.jpg"> <link rel="stylesheet" href="css/style.css"> </head> <body> <header class="site-header"> <div class="container header-inner"> <div class="logo">花</div> <nav class="nav" id="nav"> <a href="#menu">メニュー</a> <a href="#about">店舗案内</a> <a href="#gallery">ギャラリー</a> <a href="#access">アクセス</a> </nav> <div class="header-actions"> <a class="tel-btn" href="tel:09081290329">電話する</a> <button id="navToggle" class="nav-toggle" aria-label="メニュー">☰</button> </div> </div> </header> <main> <!-- Hero --> <section class="hero"> <div class="hero-overlay"></div> <div class="container hero-inner"> <h1 class="kv">家よりも温かい居酒屋が、ここにはある。</h1> <p class="kv-sub">韓国家庭の味と笑顔でお迎えします。キンパ・キムチ餃子・鉄板とり焼肉が自慢。</p> <div class="hero-ctas"> <a href="tel:09081290329" class="btn btn-primary">今すぐ電話：090-8129-0329</a> <a href="#menu" class="btn btn-outline">メニューを見る</a> </div> <ul class="quick-info"> <li>火曜定休</li> <li>17:00〜23:00</li> <li>席数：20席</li> </ul> </div> </section>
 <!-- Recommend -->
-<section id="menu" class="section section-pad">
+<section id="menu" class="section">
   <div class="container">
     <h2 class="section-title">花のおすすめ</h2>
     <div class="cards">
       <article class="card">
-        <img src="images/kinpa.jpg" alt="キンパ">
+        <picture>
+          <source type="image/webp" srcset="images/kinpa.webp">
+          <img src="images/kinpa.jpg" alt="キンパ">
+        </picture>
         <h3>キンパ</h3>
         <p>自家製の味付けごはんと新鮮な具材で巻く、当店自慢の定番。800円</p>
       </article>
       <article class="card">
-        <img src="images/gyoza.jpg" alt="キムチ餃子">
+        <picture>
+          <source type="image/webp" srcset="images/gyoza.webp">
+          <img src="images/gyoza.jpg" alt="キムチ餃子">
+        </picture>
         <h3>キムチ餃子</h3>
         <p>自家製キムチをたっぷり使用。外はカリッと、中はジューシー。680円</p>
       </article>
       <article class="card">
-        <img src="images/toriyakiniku.jpg" alt="鉄板とり焼肉">
+        <picture>
+          <source type="image/webp" srcset="images/toriyakiniku.webp">
+          <img src="images/toriyakiniku.jpg" alt="鉄板とり焼肉">
+        </picture>
         <h3>鉄板とり焼肉</h3>
         <p>特製ダレで仕上げた鶏を熱々の鉄板でご提供。980円</p>
       </article>
     </div>
-    <p class="note">※価格はサンプルです。実際の価格に差し替えてください。</p>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section section-pad">
+  <div class="container about-wrap">
+    <div class="about-text">
+      <h2 class="section-title">もうひとつの我が家、花</h2>
+      <p>いらっしゃいませ。『花』は家のぬくもりを超える“もうひとつの我が家”を目指す韓国家庭料理の居酒屋です。手作りのキンパ、ピリ辛で旨味たっぷりのキムチ餃子、鉄板で香ばしく焼き上げるとり焼肉—心も体も温まる一皿をご用意してお待ちしています。</p>
+      <p class="mini-info"><strong>住所：</strong>〒663-8183 兵庫県西宮市里中町２丁目２−２ 東甲子園ハイツ</p>
+    </div>
+    <div class="about-cta">
+      <div class="owner">店主より<br>家庭の味を大切に、一品一品心を込めて。</div>
+      <a class="tel-large" href="tel:09081290329">電話で予約・問合せ：090-8129-0329</a>
+    </div>
   </div>
 </section>
 
@@ -29,65 +54,39 @@
   <div class="container">
     <h2 class="section-title light">店内・ギャラリー</h2>
     <div class="gallery-grid">
-      <img src="images/interior1.jpg" alt="店内の様子">
-      <img src="images/kinpa.jpg" alt="キンパ">
-      <img src="images/gyoza.jpg" alt="キムチ餃子">
-      <img src="images/toriyakiniku.jpg" alt="鉄板とり焼肉">
+      <img src="images/interior1.jpg" alt="店内の様子" loading="lazy">
+      <img src="images/kinpa.jpg" alt="キンパ" loading="lazy">
+      <img src="images/gyoza.jpg" alt="キムチ餃子" loading="lazy">
+      <img src="images/toriyakiniku.jpg" alt="鉄板とり焼肉" loading="lazy">
     </div>
   </div>
 </section>
 
-<!-- About / Owner -->
-<section id="about" class="section section-pad">
-  <div class="container">
-    <h2 class="section-title">店舗案内</h2>
-    <div class="about-grid">
-      <div>
-        <p>いらっしゃいませ。『花』は、家のぬくもりを超える“もうひとつの我が家”を目指す韓国家庭料理の居酒屋です。手作りのキンパ、ピリ辛で旨味たっぷりのキムチ餃子、鉄板で香ばしく焼き上げるとり焼肉—心も体も温まる一皿をご用意してお待ちしています。</p>
-        <h4>店舗情報</h4>
-        <ul class="info-list">
-          <li>店名：花</li>
-          <li>住所：〒663-8183 兵庫県西宮市里中町２丁目２−２ 東甲子園ハイツ</li>
-          <li>電話：090-8129-0329</li>
-          <li>営業時間：火曜定休／17:00〜23:00</li>
-          <li>席数：20席（個室なし）</li>
-        </ul>
-      </div>
-      <div class="owner">
-        <h4>店主より</h4>
-        <p>当店『花』は、家族や友人が集うあたたかい時間を大切にしています。家庭の味をベースに、ひと手間かけた料理で皆さまの“もうひとつの我が家”になれれば嬉しいです。</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Phone Reservation Section -->
-<section id="reserve" class="section section-pad section-accent">
+<!-- Reserve (Phone) -->
+<section id="reserve" class="section section-accent">
   <div class="container">
     <h2 class="section-title white">ご予約・お問合せ</h2>
-    <p class="white">ご予約はお電話で承っております。確実なご来店のため、事前のご連絡をおすすめします。</p>
-    <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:12px">
-      <a href="tel:09081290329" class="btn btn-primary" style="padding:14px 20px;font-size:1rem">今すぐ電話する：090-8129-0329</a>
-      <a href="#access" class="btn btn-outline" style="padding:12px 18px">アクセスを見る</a>
+    <p class="white">ご予約はお電話で承っております。事前のご連絡をおすすめします。</p>
+    <div class="reserve-actions">
+      <a href="tel:09081290329" class="btn btn-primary large">今すぐ電話する：090-8129-0329</a>
+      <a href="#access" class="btn btn-outline">アクセスを見る</a>
     </div>
-    <p class="white" style="margin-top:12px;font-size:0.95rem">※当日キャンセル・変更はお電話にてご連絡ください。ネット予約は行っておりません。</p>
+    <p class="white small">※当日キャンセル・変更はお電話にてご連絡ください。ネット予約は行っておりません。</p>
   </div>
 </section>
 
 <!-- Access -->
-<section id="access" class="section section-pad">
-  <div class="container">
-    <h2 class="section-title">アクセス</h2>
-    <div class="access-grid">
-      <div>
-        <p>〒663-8183 兵庫県西宮市里中町２丁目２−２ 東甲子園ハイツ</p>
-        <p>最寄り駅：阪神甲子園駅（徒歩またはバス）※詳しい行き方は下記地図をご参照ください。駐車場：近隣コインパーキングをご利用ください。</p>
-        <p>電話：090-8129-0329</p>
-      </div>
-      <div class="map">
-        <iframe src="https://www.google.com/maps?q=〒663-8183%20兵庫県西宮市里中町２丁目２−２&output=embed" aria-hidden="false" style="border:0" allowfullscreen="" loading="lazy"></iframe>
-      </div>
+<section id="access" class="section">
+  <div class="container access-grid">
+    <div>
+      <h2 class="section-title">アクセス</h2>
+      <p>〒663-8183 兵庫県西宮市里中町２丁目２−２ 東甲子園ハイツ</p>
+      <p>最寄り駅：阪神甲子園駅（徒歩・バス）／駐車場：近隣コインパーキングをご利用ください。</p>
+      <p><strong>電話：</strong>090-8129-0329</p>
+    </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps?q=〒663-8183%20兵庫県西宮市里中町２丁目２−２&output=embed" loading="lazy" aria-hidden="false"></iframe>
     </div>
   </div>
 </section>
-</main> <footer class="site-footer"> <div class="container footer-inner"> <div> <p>花 — 韓国家庭料理の居酒屋</p> <p>住所：〒663-8183 兵庫県西宮市里中町２丁目２−２ 東甲子園ハイツ</p> <p>電話：090-8129-0329 | 営業時間：火曜定休／17:00～23:00</p> </div> <div> <p>©︎ 花</p> </div> </div> </footer> <script> // 簡易ナビ開閉 (function(){ const navToggle = document.getElementById('navToggle'); const nav = document.getElementById('nav'); navToggle && navToggle.addEventListener('click', function(){ nav.classList.toggle('open'); }); })(); </script> </body> </html>
+</main> <footer class="site-footer"> <div class="container footer-inner"> <div class="footer-info"> <p class="brand">花 — 韓国家庭料理の居酒屋</p> <p>住所：〒663-8183 兵庫県西宮市里中町２丁目２−２ 東甲子園ハイツ</p> <p>電話：090-8129-0329 | 営業時間：火曜定休／17:00〜23:00</p> </div> <div class="footer-meta"> <nav class="footer-nav"> <a href="#menu">メニュー</a> <a href="#gallery">ギャラリー</a> <a href="#access">アクセス</a> </nav> <p class="copyright">© 花</p> </div> </div> </footer> <script> // ナビ開閉 (function(){ const navToggle = document.getElementById('navToggle'); const nav = document.getElementById('nav'); navToggle && navToggle.addEventListener('click', function(){ nav.classList.toggle('open'); }); })(); </script> </body> </html>
